@@ -1,0 +1,31 @@
+### 一、简单工厂模式
+
+实现了创建者和调用者的分离
+
+本质：实例化对象，用工厂方法代替new操作
+
+---
+
+### 二、策略模式  
+
+策略模式对应于解决某一个问题的算法族，允许用户从该算法族中任选一个算法解决某一问题，同时可以方便地更换算法或者新增算法。并且可以由客户端决定调用哪个方法
+
+本质：分离算法，选择实现
+
+应用：
+- JavaSE的GUI编程中，布局管理
+- Spring框架中，Resource接口，资源访问策略
+- javax.servlet.http.HttpServlet#service()
+
+---
+
+### 三、装饰器模式
+
+- Component			抽象构件
+- ConcreteComponent	具体构件
+- Decorator			装饰角色
+- ConcreteDecorator	具体装饰角色
+
+应用：io中的buffered
+
+装饰器模式和桥接模式的区别：（watch on bilibili）
