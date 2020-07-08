@@ -1,0 +1,23 @@
+06		ArrayList		Collections
+09		Stack
+11		//ArrayList
+23		List
+29		ArrayList
+30		Stack
+31		Stack
+32		ArrayList		LinkedList	Queue
+32v2	ArrayList		LinkedList	Queue
+32v3	ArrayList		Collections	LinkedList	Queue
+34		ArrayList		Collections	Comparator
+38		ArrayList		Arrays		TreeSet
+39		HashMap			Map
+40		ArrayList		Arrays
+41		Comparator		PriorityQueue
+45		//ArrayList
+50		LinkedHashMap
+50v2	LinkedHashMap	Map
+52		ArrayList
+57		ArrayList
+57v2	ArrayList
+59		ArrayList		Deque		LinkedList
+61		Arrays
