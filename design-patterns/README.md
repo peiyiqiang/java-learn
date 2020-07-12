@@ -66,3 +66,11 @@
 应用：  
 - Junit单元测试
 - servlet中关于doGet()/doPost()方法的调用
+
+```
+设计原则
+
+开闭原则（Open Closed Principle，OCP）
+依赖倒转原则（Dependency Inversion Principle，DIP）
+迪米特法则（Law of Demeter，LoD）
+```
