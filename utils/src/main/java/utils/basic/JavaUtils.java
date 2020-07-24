@@ -130,6 +130,8 @@ public class JavaUtils {
 
         //排序数组
         Arrays.sort(array);
+        //构造list
+        List<Integer> list = Arrays.asList(1, 2, 3);
     }
 
 
