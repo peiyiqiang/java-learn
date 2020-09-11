@@ -20,11 +20,11 @@ public class Solution58 {
     }
     
     public static void main(String[] args) {
-		String s = new Solution58().ReverseSentence(" ");
-		System.out.println(s.equals(" "));
-		
+		String s = new Solution58().ReverseSentence("a good   example");
+		System.out.println(s);
+
 		String ss = "  ";
 		ss = ss.trim();
-		System.out.println(ss.length());
+		System.out.println(ss.equals(""));
 	}
 }
