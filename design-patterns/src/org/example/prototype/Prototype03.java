@@ -1,24 +1,20 @@
 package org.example.prototype;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by peiyiqiang on 2020/7/8.
- * Description:浅克隆
+ * Description:深克隆方式2：通过序列化、反序列化
  */
-public class Prototype implements Cloneable {
+public class Prototype03 implements Serializable {
     private String name;
     private Date birthday;
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public Prototype03() {
     }
 
-    public Prototype() {
-    }
-
-    public Prototype(String name, Date birthday) {
+    public Prototype03(String name, Date birthday) {
         this.name = name;
         this.birthday = birthday;
     }

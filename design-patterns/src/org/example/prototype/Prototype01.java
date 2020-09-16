@@ -4,27 +4,21 @@ import java.util.Date;
 
 /**
  * Created by peiyiqiang on 2020/7/8.
- * Description:深克隆方式1：对属性也进行克隆
+ * Description:浅克隆
  */
-public class Prototype2 implements Cloneable {
+public class Prototype01 implements Cloneable {
     private String name;
     private Date birthday;
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Object obj = super.clone();
-
-        //添加以下代码实现深克隆
-        Prototype2 p = (Prototype2) obj;
-        p.setBirthday((Date) this.getBirthday().clone());
-
-        return obj;
+        return super.clone();
     }
 
-    public Prototype2() {
+    public Prototype01() {
     }
 
-    public Prototype2(String name, Date birthday) {
+    public Prototype01(String name, Date birthday) {
         this.name = name;
         this.birthday = birthday;
     }
